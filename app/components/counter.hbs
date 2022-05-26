@@ -1,0 +1,5 @@
+<p>{{this.count}}</p>
+<button type="button" {{on "click" (fn this.countChange -1)}}>-1</button>
+<button type="button" {{on "click" (fn this.countChange 1)}}>+1</button>
+<input type="text" name="name" value="{{this.val}}" {{on "input" (fn this.onInputChange)}}/>
+<p>{{this.val}}</p>

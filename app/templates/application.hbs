@@ -1,7 +1,13 @@
-{{page-title "DummyPro"}}
-
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class="main-content">
+    <MainHeader @title={{this.title}}></MainHeader>
+    <p>{{sum 1 2 3}}</p>c
+    <h1>application</h1>
+    {{!-- <ul>
+        <LinkTo @route="home"> home</LinkTo>
+        <LinkTo @route="about"> about</LinkTo>
+        {{#link-to "home"}}<li>home</li>{{/link-to}}
+        {{#link-to "about"}}<li>about</li>{{/link-to}}
+    </ul> --}}
+    {{outlet}}
+    
+</div>

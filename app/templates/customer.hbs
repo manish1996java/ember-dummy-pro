@@ -1,0 +1,6 @@
+{{page-title "Customer"}}
+{{#each this.customers as |customer|}}
+<LinkTo @route="customer">Name: {{customer.name}} Department: {{customer.department}}</LinkTo>
+<br/>
+{{/each}}
+{{outlet}}

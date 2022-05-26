@@ -1,0 +1,13 @@
+body,html{
+    margin: 0px;
+}
+
+.main-header{
+    margin: 0px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+
